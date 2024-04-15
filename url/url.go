@@ -1,7 +1,7 @@
 package url
 
 import (
-	"iteung/controller"
+	"github.com/HammiAhlan/ws-hammi2024/controller"
 
 	"github.com/gofiber/fiber/v2"
 )

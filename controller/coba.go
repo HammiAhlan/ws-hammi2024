@@ -1,10 +1,10 @@
 package controller
 
 import (
+	"github.com/HammiAhlan/ws-hammi2024/config"
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	cek "github.com/indrariksa/cobapakcage/module"
-		"github.com/HammiAhlan/ws-hammi2024/config"
 )
 
 func Homepage(c *fiber.Ctx) error {
@@ -12,7 +12,9 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 
-func GetPresensi(c *fiber.Ctx) error { 
+func GetPresensi(c *fiber.Ctx) error {
 	ps := cek.GetAllPresensi(config.Ulbimongoconn, "presensi")
 	return c.JSON(ps)
-	}
+}
+
+//akuhhh

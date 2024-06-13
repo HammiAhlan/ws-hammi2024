@@ -3,7 +3,7 @@ module github.com/HammiAhlan/ws-hammi2024
 go 1.22.3
 
 require (
-	github.com/HammiAhlan/Backend_Package v0.0.10
+	github.com/HammiAhlan/Backend_Package v0.0.11
 	github.com/aiteung/atdb v0.1.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
@@ -15,8 +15,6 @@ require (
 require (
 	aidanwoods.dev/go-paseto v1.3.0 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
-	github.com/aiteung/atapi v0.0.16 // indirect
-	github.com/aiteung/atmessage v0.0.1 // indirect
 	github.com/aiteung/atmodel v0.0.4 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/fasthttp/websocket v1.5.3 // indirect
@@ -25,14 +23,12 @@ require (
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.2 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
-	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/microsoft/go-mssqldb v1.0.0 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect

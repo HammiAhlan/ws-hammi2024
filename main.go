@@ -8,7 +8,7 @@ import (
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
-	_ "github.com/gofiber/swagger/example/docs"
+	_ "github.com/HammiAhlan/ws-hammi2024/docs"
 	"github.com/HammiAhlan/ws-hammi2024/url"
 
 	"github.com/gofiber/fiber/v2"

@@ -27,13 +27,12 @@ func Homepage(c *fiber.Ctx) error {
 // @Produce json
 // @Success 200 {object} Presensi
 // @Router /presensi [get]
-
 func GetPresensi(c *fiber.Ctx) error {
 	ps := cek.GetAllPresensi(config.Ulbimongoconn, "presensi")
 	return c.JSON(ps)
 }
 
-//akuhhh
+
 func GetPresensiID(c *fiber.Ctx) error {
 	id := c.Params("id")
 	if id == "" {

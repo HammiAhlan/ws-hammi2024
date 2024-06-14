@@ -4,6 +4,7 @@ import (
 	"github.com/HammiAhlan/ws-hammi2024/controller"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/swagger" 
 )
 
 func Web(page *fiber.App) {
@@ -20,6 +21,7 @@ func Web(page *fiber.App) {
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
 	page.Get("/presensi", controller.GetPresensi)
+	page.Get("/docs/*", swagger.HandlerDefault)
 	page.Get("/presensi/:id", controller.GetPresensiID) //menampilkan data presensi berdasarkan id
 	page.Post("/insert", controller.InsertDataPresensi)
 	page.Put("/update/:id", controller.UpdateData)

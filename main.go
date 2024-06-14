@@ -21,7 +21,7 @@ import (
 
 // @contact.name API Support
 // @contact.url https://github.com/HammiAhlan
-// @contact.email indra@ulbi.ac.id
+// @contact.email 714220062@std.ulbi.ac.id
 
 // @host ws-allan2024-0d01e8eb9e77.herokuapp.com
 // @BasePath /
